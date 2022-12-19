@@ -4,17 +4,24 @@
     font-family: Open Sans;
 }
 
-#middle {
+.middle {
     text-align: center;
     margin: auto;
-    width: 1131px;
-    height: 231px;
+    max-width: 1131px;
+    height: auto;
     background-color: lightgrey;
     border: 1px black solid;
 }
 
-#below {
+.below {
     bottom: 0;
     text-align: center;
     position: relative;
+}
+
+@media screen and (max-width: 480px) {
+    .middle {
+        max-width: 440px;
+        height: auto;
+    }
 }
