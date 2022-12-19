@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    font-family: Open Sans;
+}
+
+#middle {
+    text-align: center;
+    margin: auto;
+    width: 1131px;
+    height: 231px;
+    background-color: lightgrey;
+    border: 1px black solid;
+}
+
+#below {
+    bottom: 0;
+    text-align: center;
+    position: relative;
+}
